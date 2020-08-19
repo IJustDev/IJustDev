@@ -15,10 +15,10 @@ My name is IJustDev...
 ... and I'm currently learning how to use AI in my projects.
 
 
-#### MyPenink
-MyPenInk is platform for students to exchange their knowledge by offering and requesting tutoring lessons. Every student can be tutor aswell as tutee. (For the most part, the one with better marks will be the tutor, of course.)
+#### [MyPenink][mypenink-app]
+MyPenInk is a platform for students to exchange their knowledge by offering and requesting tutoring lessons. Every student can be tutor aswell as tutee. (For the most part, the one with better marks will be the tutor, of course.)
 
-It is written in typescript with the help of Ionic Cordova.
+It is written in Typescript with the help of Ionic Cordova.
 
 #### Gitea-VSCode
 A must-have extension for Gitea users who want their issues listed next to their code in Visual Studio Code.
@@ -26,6 +26,7 @@ A must-have extension for Gitea users who want their issues listed next to their
 #### Seolytics
 A framework that determines the SEO score of an article or meta description.
 
+[mypenink-app]: https://play.google.com/store/apps/details?id=io.mypenink.starter
 
 <!--
 **IJustDev/IJustDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
