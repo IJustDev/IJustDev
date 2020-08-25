@@ -1,52 +1,6 @@
-# Nodejs
+# NodeJs
 
-NodeJs is a runtime environment for javascript. That means that javascript does not need a browser to run. With Nodejs, javascript can be run on your local PC. Hidden from the user, Javascript gets compiled to machine code.
-
-## Modules
-Module in Node.js is a simple or complex functionality organized in single or multiple JavaScript files which can be reused throughout the Node.js application.
-
-Each module in Node.js has its own context, so it cannot interfere with other modules or pollute global scope. Also, each module can be placed in a separate .js file under a separate folder.
-
-Node.js implements CommonJS modules standard. CommonJS is a group of volunteers who define JavaScript standards for web server, desktop, and console application. 
-
-[Copied from tutorials-teacher][tutorials-teacher-node-modules] 
-
-Look at following example:
-
-### Example of modules
-```javascript
-// fileTwo.js
-module.exports = function() {
-    console.log("Hello world");
-}
-
-```
-
-```javascript
-// fileOne.js
-const variableName = require('./fileTwo')
-
-// The variable variableName becomes the function, exported in fileTwo.js
-// This means that if you call variableName like this: variableName(). The program will print "Hello World"
-variableName()
-```
-
-## What is npm?
-NPM stands for `node package manager`. It makes use of the [modules](#modules) functionality in node.
-
-If you run following command, a folder named `node_modules` will be created in your current directory.
-
-```sh
-$ npm i <package_name>
-# for example
-# $ npm i express
-```
-
-If you were to run the example `npm i express` a subdirectory called `node_modules/express` will be created. It will contain several
-Javascript files that look alike the contents of [`fileTwo.js`](#example-of-modules)
-
-Besides `npm i` there are other commands as shown in [this cheatsheet][npm-cheatsheet]. One of them: `npm init` which will be used for the [Getting Started part](#getting-started)
-
+NodeJs is a tool that allows developers to run javascript natively (without a browser). This also enables functionalities like using the camera, displaying windows, writing real games, so on and so forth.
 
 ## Setting up
 ### Windows
@@ -56,6 +10,47 @@ Besides `npm i` there are other commands as shown in [this cheatsheet][npm-cheat
 ```sh
 $ sudo apt-get install nodejs-legacy
 ```
+
+## Modules
+Modules in NodeJs are objects that cluster a set of functions, classes or variables, that later can be used (via requiring) by another developer.
+In other words they are [libraries][libraries], a developer can access later on.
+
+You can create a module that contains only one method that prints out `hello world` as shown in the example below.
+
+```javascript
+// module.js
+module.exports = function() {
+    console.log("Hello world");
+}
+
+```
+
+If you want to import these function from a module then you need to `require` it.
+
+```javascript
+// app.js
+const variableName = require('./fileTwo')
+
+// The variable variableName becomes the function, exported in fileTwo.js
+// This means that if you call variableName like this: variableName(). The program will print "Hello World"
+variableName()
+```
+
+## What is npm?
+NPM is an acronym for `node package manager`. It makes use of the [modules](#modules) functionality in node [described earlier in this document](#modules). And allows developers to share their code without much effort and in almost no time. Resulting in really fast development and maintainability.
+
+Since all modules in node are plain Javascript files, `npm` is able to download the requested modules from a registry and install it to an special folder called `node_modules`.
+The folder will be automatically created upon calling `npm i`.
+
+```sh
+$ npm i <package_name>
+# for example
+# $ npm i express
+```
+
+The subfolder inside `node_modules` called like the <package_name> will be created once you've run the command above => `node_modules/<package_name>`.
+
+Besides `npm i` there are other commands as shown in [this cheatsheet][npm-cheatsheet]. One of them: `npm init` which will be used for the [Getting Started part](#getting-started)
 
 ## Getting started
 
@@ -101,3 +96,4 @@ express().listen(3000, function() {
 [tutorials-teacher-node-modules]: https://www.tutorialsteacher.com/nodejs/nodejs-modules
 [npm-cheatsheet]: https://devhints.io/npm
 [express]: https://github.com/express/express
+[libraries]: https://en.wikipedia.org/wiki/Library_(computing)
