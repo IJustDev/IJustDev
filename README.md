@@ -6,6 +6,8 @@ My name is IJustDev...
 
 <a href="https://www.buymeacoffee.com/IJustDev" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
+... take a look at the [learning section](./learning) of my repository. It contains guidelines for many topics.
+
 ... and I'm working on following projects:
 - [MyPenInk](#mypenink)
 - [Gitea-VSCode](#gitea-vscode)
