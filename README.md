@@ -2,6 +2,8 @@
 
 My name is IJustDev...
 
+and I'm available for freelance work at [Fiverr](https://fiverr.com/IJustDev).
+
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=ijustdev&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ijustdev&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
