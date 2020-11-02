@@ -2,8 +2,7 @@
 
 My name is IJustDev...
 
-### Hire Me
-I'm available for freelance work at [Fiverr](https://fiverr.com/IJustDev).
+[![Fiverr Badge](https://img.shields.io/badge/Fiverrr-IJustDev-brightgreen?style=for-the-badge)](https://fiverr.com/ijustdev)
 
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=ijustdev&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
