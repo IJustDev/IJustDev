@@ -1,52 +1,41 @@
-### Hi there 👋
-
-My name is IJustDev...
+<div align="center">
+<img style="margin-bottom: 30px" src="https://avatars1.githubusercontent.com/u/43793996?s=460&u=4118baf77af466ab0402c5dd18a53a407e5fbef2&v=4">
+<h2>IJustDev Overview</h3>
+<p>Passionate Software Developer</p>
+<hr>
 
 [![Fiverr Badge](https://img.shields.io/badge/Fiverr-IJustDev-brightgreen?style=for-the-badge)](https://fiverr.com/ijustdev)
+[![BMAC Badge](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-IJustDev-orange?style=for-the-badge)](https://www.buymeacoffee.com/IJustDev)
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=ijustdev&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+</div>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ijustdev&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+```json
+{
+    "name": "Alexander",
+    "projects": {
+        "MyPenInk": {
+            "description": "Mobile App for students to earn money by tutoring."
+        },
+        "Gitea-VSCode": {
+            "description": "Gitea integration for Visual Studio Code"
+        },
+        "Depotter": {
+            "description": "Test your financial strategies from within your cli"
+        }
+    },
+    "freelance": "available. Contact me on Fiverr.",
+    "support": "Either hire me or buy me a coffee. I won't spill it. I swear."
+}
+```
 
-... and if you want to support me, please buy me a cup of coffee. ☕
+## Freelance
+I'm available for freelance work. Contact me either [via Fiverr](https://fiverr.com/IJustDev) or contact me [via email](mailto://ijustdevgc@gmail.com).
 
-<a href="https://www.buymeacoffee.com/IJustDev" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+## Stats
+<hr>
+<img width="45%" src="https://github-readme-stats.vercel.app/api?username=ijustdev&show_icons=true">
 
-... take a look at the [learning section](https://github.com/IJustDev/IJustDev/tree/master/learning) of my repository. It contains guidelines for many topics.
-
-... and I'm working on following projects:
-- [MyPenInk](#mypenink)
-- [Gitea-VSCode](#gitea-vscode)
-- [seolytics](#seolytics)
-- an affiliate theme to make my life easier with niche websites.
-
-... and I'm currently learning how to use AI in my projects.
-
-
-#### [MyPenink][mypenink-app]
-MyPenInk is a platform for students to exchange their knowledge by offering and requesting tutoring lessons. Every student can be tutor aswell as tutee. (For the most part, the one with better marks will be the tutor, of course.)
-
-It is written in Typescript with the help of Ionic Cordova.
-
-#### Gitea-VSCode
-A must-have extension for Gitea users who want their issues listed next to their code in Visual Studio Code.
-
-#### Seolytics
-A framework that determines the SEO score of an article or meta description.
+## Learn / My Blog
+Check out the [`learning/`](https://github.com/IJustDev/IJustDev/tree/master/learning) folder of my repository. It contains guidelines and journeys of my projects.
 
 [mypenink-app]: https://play.google.com/store/apps/details?id=io.mypenink.starter
-
-<!--
-**IJustDev/IJustDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
