@@ -2,11 +2,9 @@
 <h2>IJustDev Overview</h3>
 <p>Passionate Software Developer</p>
 <hr>
-
-[![BMAC Badge](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-IJustDev-orange?style=for-the-badge)](https://www.buymeacoffee.com/IJustDev)
-
 </div>
 
+[![BMAC Badge](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-IJustDev-orange?style=for-the-badge)](https://www.buymeacoffee.com/IJustDev)
 
 ## Freelance
 I'm available for freelance work. Contact me either [via Fiverr](https://fiverr.com/IJustDev) or contact me [via email](mailto://ijustdevgc@gmail.com).
